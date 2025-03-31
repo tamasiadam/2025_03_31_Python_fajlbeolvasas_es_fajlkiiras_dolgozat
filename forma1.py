@@ -35,14 +35,15 @@ for versenyzo in versenyzok:
         nyertes_szam = versenyzo[2]
         nyertes_neve = versenyzo[0]
 
+futamok_szama = []
 for futam in versenyzok:
-    futamok_szama = []
     futamok_szama.append(futam[3])
-    atlag_futam = sum(futamok_szama) / len(futamok_szama)
+atlag_futam = sum(futamok_szama) / len(futamok_szama)
 
 
-print(f"A beolvasott fájlban összesen {len(versenyzok)} versenyző szerepel.")
-print(f"A legtöbb futamot nyert versenyző: {nyertes_neve}")
-print(f"A legtöbb futamot teljesített versenyző: {futamos_neve} ")
-print(f"Az átlagos futamszám: {atlag_futam}")
-
+with open('kiirt_adatok/statisztika.txt', 'w', encoding='utf-8') as celfajl:
+     print(f"A beolvasott fájlban összesen {len(versenyzok)} versenyző szerepel.", file=celfajl)
+     print(f"A legtöbb futamot nyert versenyző: {nyertes_neve}", file = celfajl)
+     print(f"A legtöbb futamot teljesített versenyző: {futamos_neve}", file = celfajl)
+     print(f"Az átlagos futamszám: {int(atlag_futam)}", file = celfajl)
+    
