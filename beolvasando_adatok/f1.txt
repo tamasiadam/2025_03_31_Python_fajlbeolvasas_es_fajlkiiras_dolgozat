@@ -1,15 +1,14 @@
 Név; Csapat; Győzelmek száma; Teljesített futamok száma
-Lewis Hamilton;Mercedes;103;332
-Max Verstappen;Red Bull;56;184
-Sebastian Vettel;Ferrari;53;300
 Michael Schumacher;Ferrari;91;306
 Ayrton Senna;McLaren;41;161
 Fernando Alonso;Renault;32;377
 Kimi Räikkönen;Ferrari;21;349
 Nico Rosberg;Mercedes;23;206
+Sebastian Vettel;Ferrari;53;300
 Damon Hill;Williams;22;115
 Jenson Button;Brawn GP;15;306
 Mika Häkkinen;McLaren;20;165
+Max Verstappen;Red Bull;56;184
 Alain Prost;McLaren;51;199
 Nelson Piquet;Brabham;23;204
 Niki Lauda;Ferrari;25;171
@@ -20,6 +19,7 @@ Graham Hill;Lotus;14;176
 Emerson Fittipaldi;McLaren;14;144
 Jack Brabham;Brabham;14;126
 Stirling Moss;Mercedes;16;66
+Lewis Hamilton;Mercedes;103;332
 Riccardo Patrese;Williams;6;256
 Carlos Reutemann;Ferrari;12;146
 James Hunt;McLaren;10;92
